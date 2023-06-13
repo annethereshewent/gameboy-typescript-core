@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/annecastrillon/.nvm/versions/node/v14.20.0/bin/node /Users/annecastrillon/.nvm/versions/node/v14.20.0/bin/yarn add JSZip
+
+PATH: 
+  /Users/annecastrillon/.rvm/gems/ruby-3.0.0/bin:/Users/annecastrillon/.rvm/gems/ruby-3.0.0@global/bin:/Users/annecastrillon/.rvm/rubies/ruby-3.0.0/bin:/Users/annecastrillon/.nvm/versions/node/v14.20.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/annecastrillon/.cargo/bin:/Users/annecastrillon/.rvm/bin:/Users/annecastrillon/.pyenv/shims
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/JSZip: Not found
+      at Request.params.callback [as _callback] (/Users/annecastrillon/.nvm/versions/node/v14.20.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/annecastrillon/.nvm/versions/node/v14.20.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/annecastrillon/.nvm/versions/node/v14.20.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/annecastrillon/.nvm/versions/node/v14.20.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
