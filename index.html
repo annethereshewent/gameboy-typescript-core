@@ -45,7 +45,7 @@ romInput.addEventListener("change", (e) => {
   handleFileChange(e)
 })
 
-async function loadGame(_) {
+async function loadGame(_, e) {
   gameboy = new _.Gameboy()
   if (e.target.files != null) {
     const file = e.target.files[0]
@@ -72,7 +72,7 @@ async function loadGame(_) {
 
 function handleFileChange(e) {
   requirejs(['Gameboy'], function(Gameboy) {
-    loadGame(Gameboy)
+    loadGame(Gameboy, e)
   })
 
 }
