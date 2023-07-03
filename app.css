@@ -23,6 +23,7 @@
   font-weight: 700;
 }
 .close {
+  font-size: 20px;
   float: right;
   cursor: pointer;
 }
@@ -49,7 +50,9 @@ canvas {
 .buttons {
   margin-left: 20px;
 }
-
+.title {
+  text-align: center;
+}
 #full-screen {
   float: right;
   margin-right: 20px;
